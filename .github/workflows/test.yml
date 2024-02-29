@@ -3,10 +3,10 @@ name: hello-world
 on:
  workflow_dispatch:
 
- jobs:
+  jobs:
    print-hello-world:
      runs-on: ubuntu-latest
 
-      steps:
+     steps:
         - name: Say Hello
           run: echo "Hello, World!"
